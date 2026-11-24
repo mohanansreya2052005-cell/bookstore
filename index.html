@@ -20,7 +20,7 @@
 
 
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
-    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="https://static.vecteezy.com/system/resources/previews/006/115/732/original/black-and-white-open-book-logo-illustration-on-white-background-vector.jpg" class="h-7" alt="Flowbite Logo" />
         <span class="self-center text-xl text-heading font-semibold whitespace-nowrap text-white" >BookStore</span>
     </a>
@@ -31,37 +31,37 @@
     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
       <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
         <li class=" border p-1 rounded-full text-green-400 shadow-md  px-4 hover:bg-green-700">
-          <a href="#" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Home</a>
+          <a href="#home" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Home</a>
         </li>
         <li class=" border p-1 rounded-full text-green-400 shadow-md  px-4 hover:bg-green-700">
-          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Collections</a>
+          <a href="#collection" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Collections</a>
         </li>
         <li class=" border p-1 rounded-full text-green-400 shadow-md  px-4 hover:bg-green-700">
-          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Best seller</a>
+          <a href="#best" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Best seller</a>
         </li>
        
         <li class=" border p-1 rounded-full text-green-400 shadow-md  px-4 hover:bg-green-700">
-          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Gallery</a>
+          <a href="#gallery" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Gallery</a>
         </li>
 
         <li class=" border p-1 rounded-full text-green-400 shadow-md  px-4 hover:bg-green-700">
-          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Contact</a>
+          <a href="#contact" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<section>
+<section id="home">
 <div class="bg-[url(https://img.freepik.com/premium-photo/abundant-collection-antique-books-wooden-shelves_148840-2841.jpg)] h-screen bg-center bg-fixed bg-cover p-40">
 
 <div class="flex flex-col justify-center  items-center border h-50 mx-60 border-white  rounded-sm  bg-transparent shadow-2xl  ">
 
     <h1 class="text-2xl text-white m-3 mx-5 text-center">Explore Thousands of Bestselling Books at Amazing prices.</h1>
 
-<button type="button" class="text-white bg-green-700 hover:bg-green-400 box-border 
+<a href="#gallery" type="button" class="text-white bg-green-700 hover:bg-green-400 box-border 
  border border-transparent focus:ring-4 focus:ring-green-400-medium shadow-xs font-medium leading-5
-  rounded-base text-sm px-3 py-2 focus:outline-none rounded-full">Explore</button>
+  rounded-base text-sm px-3 py-2 focus:outline-none rounded-full">Explore</a>
 
 </div>
 
@@ -69,8 +69,9 @@
 </div>
 
 </section>
+<section id="collection">
 
-<h1 class="text-center text-green-800 text-3xl justify-center bg-amber-50 p-2 font-extrabold " >Collections</h1>
+<h1 class="text-center text-green-800 text-3xl justify-center bg-amber-50 p-2 font-extrabold  " >Collections</h1>
 
 <div class="bg-amber-50  flex flex-wrap gap-10  p-6 justify-center item-center  " >
 
@@ -203,8 +204,9 @@
 
 
 </div>
+</section>
 
-<section class="bg-amber-50 h-screen ">
+<section class="bg-amber-50 h-screen best" id="best">
 
 <h1 class="text-3xl font-extrabold text-green-800 jistify-center text-center p-4 ">Best seller</h1>
 <div class="flex flex-wrap gap-6 m-4 justify-center ms-3">
@@ -258,7 +260,7 @@ He calls them atomic habits.</p>
 
 </section>
 
-<div class="">
+<div id="gallery">
 
     <h1 class="text-3xl font-extrabold text-green-800 jistify-center text-center p-4 bg-amber-50">Gallery</h1>
 
@@ -296,7 +298,7 @@ He calls them atomic habits.</p>
         <img class="rounded-base w-full h-100 object-cover overflow-hidden bg-white" src="https://shop.penguin.co.uk/cdn/shop/files/BookLovers_2048x2048_cropped.jpg?v=1689938367" alt="">
     </div>
     <div>
-        <img class="rounded-base w-full h-100 object-cover overflow-hidden bg-white" src="https://bookfupanda.com/wp-content/uploads/2024/02/1659775362.jpg" alt="">
+        <img class="rounded-base w-full h-100 object-cover overflow-hidden bg-white" src="https://booxworm.lk/cdn/shop/files/the-alchemist-by-paulo-coelho-imperfect-booxworm-99631.png?v=1758653229&width=1946" alt="">
     </div>
     <div>
         <img class="rounded-base w-full h-100 object-cover overflow-hidden bg-white" src="https://bookworlduae.com/cdn/shop/files/CopyofBookworldMockup_22_6e2227bd-f75c-4cd2-b12d-956ed076b434.png?v=1715157621&width=1445" alt="">
@@ -318,7 +320,7 @@ He calls them atomic habits.</p>
 
 
 
-<div class="bg-amber-50">
+<div class="bg-amber-50" id="contact">
 
 
 <form class="max-w-sm mx-auto space-y-4   h-screen">
